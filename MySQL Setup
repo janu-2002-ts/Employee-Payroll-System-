@@ -1,0 +1,9 @@
+create database payrolldb;
+
+use payrolldb;
+
+create table employee(
+    id int primary key,
+    name varchar(50),
+    basic double
+);
